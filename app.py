@@ -6,8 +6,8 @@ st.set_page_config(page_title="Deep Research Dashboard", layout="wide")
 st.title("🤖 Live AI Research Dashboard (Powered by n8n)")
 
 # ⚠️ WE WILL CHANGE THIS URL LATER ONCE YOUR N8N WORKFLOW IS READY
-N8N_WEBHOOK_URL = "https://n8n.cloud"
-"https://stardust-gemini.app.n8n.cloud/webhook-test/research"
+N8N_WEBHOOK_URL = "https://stardust-gemini.app.n8n.cloud/webhook-test/research"
+
 topic = st.text_input("Enter research topic:", "Solid state battery market")
 
 if st.button("🔄 Trigger Agent Refresh"):
