@@ -6,7 +6,7 @@ import re
 st.set_page_config(page_title="Deep Research Dashboard", layout="wide")
 st.title("🤖 Live AI Research Dashboard (Powered by n8n)")
 
-N8N_WEBHOOK_URL = "https://stardust-gemini.app.n8n.cloud/webhook-test/research"
+N8N_WEBHOOK_URL = "https://stardust-gemini.app.n8n.cloud/webhook/research"
 
 topic = st.text_input("Enter research topic:", "Computer hardware market")
 
