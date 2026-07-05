@@ -8,7 +8,7 @@ st.title("Research Dashboard MVP (AI-Powered by n8n)")
 
 N8N_WEBHOOK_URL = "https://stardust-gemini.app.n8n.cloud/webhook/research"
 
-topic = st.text_input("Enter research topic:", "Computer hardware market")
+topic = st.text_input("Enter research topic. Then trigger refresh.", "Computer hardware market")
 
 if st.button("🔄 Trigger Agent Refresh"):
     with st.spinner("n8n Agent is scouring the web..."):
